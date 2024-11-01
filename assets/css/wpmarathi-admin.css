@@ -1,0 +1,58 @@
+.wpmarathi-logo {
+  max-height: 80%;
+  filter: invert(0);
+  max-height: 80%;
+  filter: invert(0);
+  background: url(../image/wpmarathi-logo.png) !important;
+  width: 21px !important;
+  background-size: contain !important;
+  height: 21px !important;
+  border: 0px !important;
+  outline: transparent !important;
+  display: inline-block;
+  vertical-align: middle !important;
+  background-repeat:no-repeat !important;
+  background-position: center center !important;
+
+}
+button[id*='mceu'] .wpmarathi-logo{
+    padding: 0!important;
+    margin:0 10px 0px 5px!important;
+}
+.wpmarathi-logo ~ .mce-txt{
+    transform: translateY(2px);
+    display: inline-block;
+    padding-right: 7px;
+}
+.active .wpmarathi-logo {
+  filter: invert(1);
+}
+
+.blocker {
+  z-index: 1001!important;
+}
+.wpmarathi-block-editor-button {
+  display: none;
+  background: #fff;
+  background-color: #fff;
+  border: 1px solid #b3bcc0;
+  padding: 5px 10px;
+  position: absolute;
+  right: 0;
+  transform: translate(14px,-133%);
+  outline: none;
+  z-index: 100;
+}
+.wp-block:focus-within .wpmarathi-block-editor-button {
+  display: block;
+}
+/* Block Text Alignment */
+.text-align-left{
+  text-align: left;
+}
+.text-align-right{
+  text-align: right;
+}
+.text-align-center{
+  text-align: center;
+}
